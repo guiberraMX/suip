@@ -63,6 +63,17 @@ Table of contents
     Reset
 ====================================== */
 
+
+.degradado {
+  background: -webkit-linear-gradient(#0e96db, #0b72a8);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.btn-success-2{
+    background: -webkit-linear-gradient(#0e96db, #0b72a8);
+}
+
 body{ font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
 a, a:active{ color: #626262; text-decoration: none; }
 a:hover, a:focus{ color: #272727;  text-decoration: none}
@@ -767,7 +778,7 @@ section { padding: 130px 0; }
 #header {z-index: 5}
 .navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: relative; top: 0; z-index: 10; border-bottom: 1px solid rgba(255,255,255,.15) }
 nav .container { display: table-cell; height: 75px; position: relative; vertical-align: middle; }
-.navbar-header {background: url("../images/logo-border.png") right no-repeat}
+.navbar-header {background: url( ) right no-repeat}
 nav.shrink .container {height: 60px;}
 .header-right { margin: 13px 0 0; }
 .navbar-nav a { font-size: 12px; text-transform: uppercase; color: #fff !important; padding:0 !important; font-weight: 500}
